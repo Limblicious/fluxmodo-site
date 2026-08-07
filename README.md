@@ -1,6 +1,6 @@
 # Site
 
-This folder contains the first local scaffold for the Flux Modo placeholder website.
+This repository contains the Flux Modo placeholder website deployed through GitHub Pages.
 
 ## Current Intent
 
@@ -25,17 +25,15 @@ Currently building DetShift.
 
 ## Hosting Notes
 
-This site can be hosted as plain static files.
-
-Possible targets later:
-
-- GoDaddy static hosting
-- GitHub Pages
-- Vercel
-- Cloudflare Pages
+- Public URL: `https://fluxmodo.com`
+- Hosting: GitHub Pages
+- DNS: Porkbun
+- `www.fluxmodo.com` redirects to the apex domain
+- GitHub Pages deploys the root of the `main` branch
 
 ## Notes
 
 - the current scaffold uses Google Fonts for `Bebas Neue` and `Inter`
 - if a stricter self-hosted approach is preferred later, the font setup can be changed
 - no public contact information is included yet by design
+- replace the CSS text wordmark with the commissioned Sokomoto wordmark after delivery
