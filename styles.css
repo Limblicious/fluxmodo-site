@@ -72,6 +72,21 @@ body {
   filter: invert(1);
 }
 
+.contact {
+  margin: 26px 0 0;
+}
+
+.contact a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: clamp(14px, 1.6vw, 18px);
+}
+
+.contact a:hover {
+  color: var(--fg);
+  text-decoration: underline;
+}
+
 @media (max-width: 640px) {
   .page-shell {
     padding: 24px;

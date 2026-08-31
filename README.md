@@ -36,5 +36,5 @@ Products under construction...
 
 - the current scaffold uses Google Fonts for `Inter`
 - if a stricter self-hosted approach is preferred later, the font setup can be changed
-- no public contact information is included yet by design
+- public contact email is published as `contact@fluxmodo.com`
 - the commissioned Sokomoto wordmark is now deployed as `assets/flux-modo-wordmark.png`
