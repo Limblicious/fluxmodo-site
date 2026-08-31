@@ -40,7 +40,7 @@ body {
 
 .wordmark-img {
   display: block;
-  width: clamp(240px, 58vw, 400px);
+  width: clamp(240px, 58vw, 800px);
   height: auto;
   margin: 0 auto;
 }
@@ -48,7 +48,6 @@ body {
 .tagline,
 .status {
   margin: 0;
-  font-size: clamp(16px, 2vw, 22px);
   line-height: 1.45;
 }
 
@@ -56,11 +55,13 @@ body {
   margin-top: 28px;
   color: var(--fg);
   font-weight: 500;
+  font-size: clamp(18px, 2.4vw, 26px);
 }
 
 .status {
   margin-top: 10px;
   color: var(--muted);
+  font-size: clamp(15px, 1.8vw, 20px);
 }
 
 @media (max-width: 640px) {
