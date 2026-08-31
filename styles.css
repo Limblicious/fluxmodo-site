@@ -40,8 +40,7 @@ body {
 
 .wordmark-img {
   display: block;
-  width: 100%;
-  max-width: 760px;
+  width: clamp(240px, 58vw, 400px);
   height: auto;
   margin: 0 auto;
 }
