@@ -11,17 +11,18 @@ It should function like a brand title card, not a full startup landing page.
 ## Current Copy
 
 ```text
-FLUX MODO
+FLUX MODO (wordmark image)
 
-Industrial science-fiction games and media.
+Independent games and media
 
-Currently building DetShift.
+Products under construction...
 ```
 
 ## Files
 
 - `index.html` - the static placeholder page
 - `styles.css` - visual styling for the placeholder page
+- `assets/flux-modo-wordmark.png` - the commissioned Sokomoto wordmark
 
 ## Hosting Notes
 
@@ -33,7 +34,7 @@ Currently building DetShift.
 
 ## Notes
 
-- the current scaffold uses Google Fonts for `Bebas Neue` and `Inter`
+- the current scaffold uses Google Fonts for `Inter`
 - if a stricter self-hosted approach is preferred later, the font setup can be changed
 - no public contact information is included yet by design
-- replace the CSS text wordmark with the commissioned Sokomoto wordmark after delivery
+- the commissioned Sokomoto wordmark is now deployed as `assets/flux-modo-wordmark.png`

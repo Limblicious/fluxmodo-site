@@ -36,12 +36,14 @@ body {
 
 .wordmark {
   margin: 0;
-  font-family: "Bebas Neue", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: clamp(88px, 17vw, 260px);
-  font-weight: 400;
-  line-height: 0.88;
-  letter-spacing: 0.045em;
-  color: #ffffff;
+}
+
+.wordmark-img {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .tagline,
@@ -65,10 +67,6 @@ body {
 @media (max-width: 640px) {
   .page-shell {
     padding: 24px;
-  }
-
-  .wordmark {
-    font-size: clamp(72px, 21vw, 132px);
   }
 
   .tagline {
